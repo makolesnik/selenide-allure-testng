@@ -11,3 +11,8 @@ out/
 .idea/
 *.*~
 .*~ 
+*.iml
+.classpath
+.project
+.settings/
+test-output/
