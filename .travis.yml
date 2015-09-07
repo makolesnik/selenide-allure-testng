@@ -1,3 +1,5 @@
 language: java
 
-script: mvn clean test -Dbdrowser=chrome
+script: mvn clean install
+
+script: mvn clean test
