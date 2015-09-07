@@ -2,4 +2,4 @@ language: java
 
 script: mvn clean install
 
-script: mvn clean test
+script: mvn clean test -Dbrowser=phantomjs
