@@ -1,8 +1,6 @@
 language: java
 
-script: mvn clean install
-
 before_script:
-- mvn com.googlecode.mycontainer:mycontainer-maven-plugin:phantomjs-install -Dmycontainer.phantomjs.dest=target/phantomjs -Dmycontainer.phantomjs.version=1.9.2
+- mvn com.googlecode.mycontainer:mycontainer-maven-plugin:phantomjs-install -Dmycontainer.phantomjs.dest=target/phantomjs -Dmycontainer.phantomjs.version=2.0.0
 
 script: mvn clean test -Dbrowser=phantomjs
