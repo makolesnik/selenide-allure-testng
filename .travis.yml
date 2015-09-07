@@ -1,7 +1,0 @@
-language: java
-
-before_script:
-- mvn com.googlecode.mycontainer:mycontainer-maven-plugin:phantomjs-install -Dmycontainer.phantomjs.dest=target/phantomjs -Dmycontainer.phantomjs.version=1.9.2
-
-script:
-- mvn test -Dselenium
